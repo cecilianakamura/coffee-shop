@@ -1,0 +1,24 @@
+{
+  "name": "coffee-shop",
+  "version": "1.0.0",
+  "description": "Coffee Shop - backend",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "author": "Cecília Naomi Nakamura",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.7",
+    "express-validator": "^6.14.3",
+    "mongoose": "^6.9.0",
+    "mysql2": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "license": "ISC"
+}
